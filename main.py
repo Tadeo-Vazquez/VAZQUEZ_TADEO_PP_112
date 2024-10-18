@@ -2,7 +2,6 @@ from Paquete.funciones import *
 from os import system
 
 planilla_clientes = cargar_clientes_random(15,3)
-print(planilla_clientes)
 while True:
     print("Sistema de gestios de Envíos")
     print("Selecciona una opción:\n1. Cantidad de paquetes que envía cada cliente\n2. Cantidad de clientes que no enviaron ni paquetes pequeños ni grandes\n3. Totales a pagar de forma descendente\n4. Totales de recaudacion por tamaños. Y tamaño que mas recuadó\n5. Cliente/s que más paquete medianos envió\n6. Salir")
