@@ -46,8 +46,6 @@ def cargar_clientes_random(cantidad_clientes,cantidad_tamaños)->list:
                         planilla[i][2] += 1
     return planilla
 
-clientes = cargar_clientes_random(3,3)
-print(clientes)
 
 def contar_paquetes_clientes(planilla_clientes:list)->list:
     planilla_total_clientes = crear_matriz(len(planilla_clientes),1,0)
